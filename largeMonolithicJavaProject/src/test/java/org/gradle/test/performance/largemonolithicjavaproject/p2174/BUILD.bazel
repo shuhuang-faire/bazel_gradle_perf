@@ -1,0 +1,13 @@
+load("//:junit.bzl", "junit_tests")
+
+junit_tests(
+    name = "p2174",
+    size = "small",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2170",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2172",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2173",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2174",
+    ],
+)
