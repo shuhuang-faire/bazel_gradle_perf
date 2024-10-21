@@ -1,0 +1,79 @@
+package org.gradle.test.performance.largemonolithicjavaproject.p2015;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class Test40305 {
+    Production40305 objectUnderTest = new Production40305();
+
+    @Test
+    public void testProperty0() {
+        Production40302 value = new Production40302();
+        objectUnderTest.setProperty0(value);
+        assertEquals(value, objectUnderTest.getProperty0());
+    }
+
+    @Test
+    public void testProperty1() {
+        Production40303 value = new Production40303();
+        objectUnderTest.setProperty1(value);
+        assertEquals(value, objectUnderTest.getProperty1());
+    }
+
+    @Test
+    public void testProperty2() {
+        Production40304 value = new Production40304();
+        objectUnderTest.setProperty2(value);
+        assertEquals(value, objectUnderTest.getProperty2());
+    }
+
+    @Test
+    public void testProperty3() {
+        String value = "value";
+        objectUnderTest.setProperty3(value);
+        assertEquals(value, objectUnderTest.getProperty3());
+    }
+
+    @Test
+    public void testProperty4() {
+        String value = "value";
+        objectUnderTest.setProperty4(value);
+        assertEquals(value, objectUnderTest.getProperty4());
+    }
+
+    @Test
+    public void testProperty5() {
+        String value = "value";
+        objectUnderTest.setProperty5(value);
+        assertEquals(value, objectUnderTest.getProperty5());
+    }
+
+    @Test
+    public void testProperty6() {
+        String value = "value";
+        objectUnderTest.setProperty6(value);
+        assertEquals(value, objectUnderTest.getProperty6());
+    }
+
+    @Test
+    public void testProperty7() {
+        String value = "value";
+        objectUnderTest.setProperty7(value);
+        assertEquals(value, objectUnderTest.getProperty7());
+    }
+
+    @Test
+    public void testProperty8() {
+        String value = "value";
+        objectUnderTest.setProperty8(value);
+        assertEquals(value, objectUnderTest.getProperty8());
+    }
+
+    @Test
+    public void testProperty9() {
+        String value = "value";
+        objectUnderTest.setProperty9(value);
+        assertEquals(value, objectUnderTest.getProperty9());
+    }
+
+}
