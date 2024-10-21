@@ -1,0 +1,24 @@
+# Ignore Bazel-generated directories
+bazel-*
+
+# Ignore Bazel output directories
+**/bazel-bin
+**/bazel-out
+**/bazel-testlogs
+
+# Ignore Bazel symlinks
+**/bazel-*
+
+# Ignore other Bazel-related files and directories
+**/output/
+**/.ijwb/
+
+# Ignore Bazel workspace files (optional, depending on your needs)
+# **/*.bazelrc
+# **/*.bazelversion
+
+# Ignore Bazel execution logs
+**/*.log
+
+# Ignore Bazel cache directories
+**/.bazel-cache/
