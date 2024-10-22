@@ -5,6 +5,11 @@ junit_tests(
     size = "small",
     srcs = glob(["*.java"]),
     deps = [
-        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2423:p2423"
-    ]
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2411",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2417",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2419",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2421",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2422",
+        "//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p2423",
+    ],
 )
