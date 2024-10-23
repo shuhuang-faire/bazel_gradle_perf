@@ -1,0 +1,10 @@
+load("//:junit.bzl", "junit_tests")
+
+junit_tests(
+    name = "p139",
+    size = "small",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//project27/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project27/p139:p139"
+    ]
+)
