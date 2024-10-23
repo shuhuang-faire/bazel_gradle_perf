@@ -24,3 +24,4 @@ bazel-*
 **/.bazel-cache/
 
 **/.gradle/
+**/build/
