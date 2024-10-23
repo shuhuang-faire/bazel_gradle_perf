@@ -22,3 +22,5 @@ bazel-*
 
 # Ignore Bazel cache directories
 **/.bazel-cache/
+
+**/.gradle/
