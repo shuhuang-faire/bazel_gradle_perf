@@ -1,9 +1,0 @@
-load("@rules_java//java:defs.bzl", "java_library")
-
-java_library(
-    name = "p793",
-    srcs = glob(["*.java"]),
-    javacopts = ["-XepDisableAllChecks"],
-    visibility = ["//visibility:public"],
-    deps = ["//src/main/java/org/gradle/test/performance/largemonolithicjavaproject/p792"],
-)
