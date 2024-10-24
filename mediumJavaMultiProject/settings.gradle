@@ -1,3 +1,11 @@
+plugins {
+    id("com.gradle.develocity") version("3.18.1")
+}
+
+develocity {
+    // configuration
+    server.set("https://ge.faire.team")
+}
 include("project0:sub0project0")
 include("project1:sub0project1")
 include("project2:sub0project2")
