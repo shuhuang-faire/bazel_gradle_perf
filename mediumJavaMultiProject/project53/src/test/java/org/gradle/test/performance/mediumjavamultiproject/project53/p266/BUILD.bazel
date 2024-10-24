@@ -5,6 +5,7 @@ junit_tests(
     size = "small",
     srcs = glob(["*.java"]),
     deps = [
-        "//project53/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project53/p266:p266"
-    ]
+        "//project53/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project53/p265",
+        "//project53/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project53/p266",
+    ],
 )

@@ -5,6 +5,19 @@ junit_tests(
     size = "small",
     srcs = glob(["*.java"]),
     deps = [
-        "//project79/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project79/p398:p398"
-    ]
+        "//project40/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project40/p202",
+        "//project40/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project40/p203",
+        "//project43/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project43/p217",
+        "//project43/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project43/p218",
+        "//project52/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project52/p262",
+        "//project52/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project52/p263",
+        "//project53/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project53/p268",
+        "//project56/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project56/p283",
+        "//project65/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project65/p328",
+        "//project66/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project66/p333",
+        "//project69/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project69/p348",
+        "//project78/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project78/p393",
+        "//project79/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project79/p397",
+        "//project79/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project79/p398",
+    ],
 )
