@@ -5,4 +5,11 @@ java_library(
     srcs = glob(["*.java"]),
     javacopts = ["-XepDisableAllChecks"],
     visibility = ["//visibility:public"],
+    deps = [
+        "//project70/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project70/p352",
+        "//project70/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project70/p353",
+        "//project71/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project71/p358",
+        "//project72/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project72/p363",
+        "//project73/src/main/java/org/gradle/test/performance/mediumjavamultiproject/project73/p367",
+    ],
 )
